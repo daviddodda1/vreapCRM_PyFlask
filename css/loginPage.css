@@ -1,0 +1,71 @@
+/* 
+color main : #3C8FC2
+color dark : #486475
+color loght : #97D2F7
+color black #000000
+color white : #ffffff
+*/
+
+
+
+*{
+    margin: 0;
+    padding: 1rem;
+    overflow-x: hidden;
+    box-sizing: inherit;
+}
+
+body, html {
+    height: 100%;
+}
+
+body{
+    padding: 0;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-image: url("../assets/BackGroundImg.png");
+}
+
+
+.mainContiner {
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+.Wrapper {
+    display: table-cell;
+    height: 100%;
+    vertical-align: middle;
+}
+
+
+.btn-primary{
+    background-color: #D96704 !important;
+}
+
+.btn-primary:hover{
+    background-color: #eb8933 !important;
+}
+
+.addBorder{
+    border: red;
+}
+
+
+input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+ 
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+
+.loginImg{
+    display: block;
+    text-indent: -9999px;
+    width: 10rem;
+    margin: auto;
+}

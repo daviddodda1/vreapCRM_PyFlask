@@ -1,0 +1,177 @@
+/* 
+color main : #3C8FC2
+color dark : #486475
+color loght : #97D2F7
+color black #000000
+color white : #ffffff
+*/
+
+html {overflow: -moz-scrollbars-none;}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    padding: 0;
+    background-position: center;
+    background-size: cover;
+    background-color: black;
+}
+
+.NoDisplay{
+    display: none;
+}
+
+.mainContiner{
+    height: 100%;
+}
+
+.wrapper{
+    display:table-cell; 
+    vertical-align:middle;
+    color: #ffffff;
+    font-size: 2.5rem;
+}
+
+.welcomeBlock{
+    height: 25%;
+    text-align:center; 
+    display:table;
+    width:100%;
+    background-color: #D96704;
+
+}
+
+.searchBarContainer{
+    width: 100%;
+}
+
+.noBorderradius{
+    border-radius: 0;
+}
+
+span a{
+    display: block;
+    margin: auto;
+}
+
+
+
+
+
+
+.input-group.md-form.form-sm.form-1 input{
+    border: 1px solid #bdbdbd;
+}
+.input-group.md-form.form-sm.form-2 input {
+    border: 1px solid #bdbdbd;
+
+}
+.input-group.md-form.form-sm.form-2 input.red-border  {
+    border: 1px solid #ef9a9a;
+}
+.input-group.md-form.form-sm.form-2 input.lime-border  {
+    border: 1px solid #cddc39;
+}
+.input-group.md-form.form-sm.form-2 input.amber-border  {
+    border: 1px solid #ffca28;
+}
+
+.userCallData_container{
+    padding: 1rem;
+}
+
+.callData{
+    margin: 0.5rem;
+    background: #ffffff;
+    color: black;
+    padding: 1rem;
+}
+
+p{
+    word-break: break-all;
+}
+
+.col-0{
+    display: none;
+}
+
+.col-6{
+    margin: 0;
+}
+
+.col-12{
+    margin: 0;
+    flex: auto;
+}
+
+button{
+    background-color: #D96704;
+    padding: 0.5rem;
+    border: none;
+    color: #ffffff;
+}
+
+button:hover{
+    background-color: #eb8933;
+}
+
+
+.leadData{
+    padding: 2rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    width: 100%;
+}
+
+
+.leadCallDataContainer{
+    width: 100%;
+    padding: 1.75rem;
+    padding-top: 0;
+}
+
+.searchBtn{
+    width: 3rem;
+    padding: 0;
+    color: #ffffff;
+    background-color: #D96704;
+    text-align: center;
+}
+
+.serchIcon{
+    display: block;
+    margin: auto;
+}
+
+.addCallDataContainer{
+    width: 100%;
+}
+
+.addCallDataBtn{
+    width: 50%;
+    display: block;
+    margin: auto;
+    color: #ffffff;
+    font-weight: 500;
+    margin-bottom: 5rem;
+}
+
+.modal-dialog{
+    max-width: 60%;
+}
+
+@media only screen and (max-width: 800px) {
+    .modal-dialog{
+        max-width: 90%;
+    }
+}
